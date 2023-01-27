@@ -35,5 +35,33 @@
   <input type="checkbox" name="csharp">C#<br>
   <input type="submit" value="Enviar">
 </form>
+
+<form action="registrardatos.php" method="post">
+  Seleccione uno o varios colores (Presione Ctrl para seleccionar varios colores)<br>
+  <select name="colores[]" size="4" multiple>
+    <option value="1">Rojo</option>
+    <option value="2">Verde</option>
+    <option value="3">Azul</option>
+    <option value="4">Amarillo</option>
+    <option value="5">Blanco</option>
+    <option value="6">Negro</option>
+    <option value="7">Naranja</option>
+    <option value="8">Violeta</option>
+  </select>
+  <br>
+  <input type="submit" value="Enviar">
+</form>
+
+<form action="registrardatos.php" method="post">
+  Ingrese su nombre: 
+  <input type="text" name="nombre" size="20">
+  <br>
+  Ingrese su clave: 
+  <input type="password" name="clave" size="12">
+  <br>
+  <input type="submit" value="enviar">
+  <input type="reset" value="borrar">
+</form>
+
 </body>
 </html>
