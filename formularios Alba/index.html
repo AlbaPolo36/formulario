@@ -10,66 +10,103 @@
   <form action="registrardatos.php" method="post">
     Ingrese su nombre:
     <input type="text" name="nombre" size="20">
-    <ver>
-      <input type="submit" value="enviar">
+    <br>
+    <button type="submit">Enviar<img src="enviar.gif" alt="envio"></button>
+    <button type="reset">Borrar<img src="borrar.gif" alt="borrado"></button>
   </form>
+  <title>Prueba de formulario</title>
+  <meta charset="UTF-8">
+  <form action="registrardatos.php" method="post"></form>
+  Telefono:
+  <input type="text" value="453-" name="telefono" size="15"><br>
+  <textarea name="comentarios" rows="5" cols="40">Ingrese aqui     sus comentarios</textarea><br>
+  <input type="submit" value="Enviar">
+</form>
+  </head>
 
-  <form action="registrardatos.php" method="post">
-    <br>
-    Seleccione el máximo nivel de estudios que tiene:
-    <br>
-    <input type="radio" name="estudios" value="1">Sin estudios<br>
-    <input type="radio" name="estudios" value="2">Primario<br>
-    <input type="radio" name="estudios" value="3">Secundario<br>
-    <input type="radio" name="estudios" value="4">Universitario<br>
-    <input type="submit" value="Enviar">
-  </form>
+  <body>
+    <form action="registrardatos.php" method="post">
+      <fieldset>
+        <legend>Datos personales</legend>
+        Apellido y nombre:
+        <input type="text" name="nombre" size="30"><br>
+        Documento de identidad:
+        <input type="text" name="dni" size="8"><br>
+        Fecha de nacimiento:
+        <input type="text" name="fechanacimiento" size="12"><br>
+        Dirección:
+        <input type="text" name="direccionpersona" size="30"><br>
+      </fieldset>
+      <fieldset>
+        <legend>Datos Laborales</legend>
+        Nombre de la empresa:
+        <input type="text" name="nombreempresa" size="30"><br>
+        Actividad:
+        <input type="text" name="actividad" size="50"><br>
+        Dirección:
+        <input type="text" name="direccionempresa" size="30"><br>
+      </fieldset>
+      <input type="submit" value="Enviar">
+    </form>
 
-  <form action="registrardatos.php" method="post">
-    <br>
-    Seleccione los lenguajes que conoce:
-    <br>
-    <input type="checkbox" name="Ingles">Ingles<br>
-    <input type="checkbox" name="Frances">Frances<br>
-    <input type="checkbox" name="Italiano">Italiano<br>
-    <input type="checkbox" name="Japones">Japones<br>
-    <input type="submit" value="Enviar">
-  </form>
-  <form action="registrardatos.php" method="post">
-    Seleccione uno o varios colores (Presione Ctrl para seleccionar varios colores)<br>
-    <select name="colores[]" size="4" multiple>
-      <option value="1">Rojo</option>
-      <option value="2">Verde</option>
-      <option value="3">Azul</option>
-      <option value="4">Amarillo</option>
-      <option value="5">Blanco</option>
-      <option value="6">Negro</option>
-      <option value="7">Naranja</option>
-      <option value="8">Violeta</option>
-    </select>
-    <br>
-    <input type="submit" value="Enviar">
-  </form>
+</html>
 
-  <form action="registrardatos.php" method="post">
-    <br>
-    Ingrese su clave:
-    <input type="password" name="clave" size="12">
-    <br>
-    <input type="submit" value="enviar">
-    <input type="reset" value="borrar">
-  </form>
+<form action="registrardatos.php" method="post">
+  <br>
+  Seleccione el máximo nivel de estudios que tiene:
+  <br>
+  <input type="radio" name="estudios" value="1">Sin estudios<br>
+  <input type="radio" name="estudios" value="2">Primario<br>
+  <input type="radio" name="estudios" value="3">Secundario<br>
+  <input type="radio" name="estudios" value="4">Universitario<br>
+  <input type="submit" value="Enviar">
+</form>
 
-  <form action="registrardatos.php" method="post">
-    <br>
-    Seleccione el máximo nivel de estudios que tiene:
-    <br>
-    <input type="radio" name="estudios" value="1">Sin estudios<br>
-    <input type="radio" name="estudios" value="2">Primario<br>
-    <input type="radio" name="estudios" value="3">Secundario<br>
-    <input type="radio" name="estudios" value="4">Universitario<br>
-    <input type="submit" value="Enviar">
-  </form>
+<form action="registrardatos.php" method="post">
+  <br>
+  Seleccione los lenguajes que conoce:
+  <br>
+  <input type="checkbox" name="Ingles">Ingles<br>
+  <input type="checkbox" name="Frances">Frances<br>
+  <input type="checkbox" name="Italiano">Italiano<br>
+  <input type="checkbox" name="Japones">Japones<br>
+  <input type="submit" value="Enviar">
+</form>
+<form action="registrardatos.php" method="post">
+  Seleccione uno o varios colores (Presione Ctrl para seleccionar varios colores)<br>
+  <select name="colores[]" size="4" multiple>
+    <option value="1">Rojo</option>
+    <option value="2">Verde</option>
+    <option value="3">Azul</option>
+    <option value="4">Amarillo</option>
+    <option value="5">Blanco</option>
+    <option value="6">Negro</option>
+    <option value="7">Naranja</option>
+    <option value="8">Violeta</option>
+  </select>
+  <br>
+  <input type="submit" value="Enviar">
+</form>
+
+<form action="registrardatos.php" method="post">
+  <br>
+  Ingrese su clave:
+  <input type="password" name="clave" size="12">
+  <br>
+  <input type="submit" value="enviar">
+  <input type="reset" value="borrar">
+</form>
+
+<form action="registrardatos.php" method="post">
+  <br>
+  Seleccione el máximo nivel de estudios que tiene:
+  <br>
+  <input type="radio" name="estudios" value="1">Sin estudios<br>
+  <input type="radio" name="estudios" value="2">Primario<br>
+  <input type="radio" name="estudios" value="3">Secundario<br>
+  <input type="radio" name="estudios" value="4">Universitario<br>
+  <input type="submit" value="Enviar">
+</form>
 
 </body>
 
