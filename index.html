@@ -50,20 +50,6 @@
     </form>
 
     <form action="registrardatos.php" method="post">
-      <fieldset>
-        <legend>Formulario de comentarios.</legend>
-        <label for="nombre">Ingrese su nombre:</label>
-        <input type="text" name="nombre" size="30" id="nombre"><br>
-        <label for="mail">Ingrese su mail:</label>
-        <input type="text" name="mail" size="50" id="mail"><br>
-        <label for="comentarios">Comentarios:</label><br>
-        <textarea name="comentarios" rows="5" cols="60" id="comentarios"></textarea>
-        <br>
-        <input type="submit" value="Enviar">
-      </fieldset>
-    </form>
-
-    <form action="registrardatos.php" method="post">
       <br>
       Seleccione el máximo nivel de estudios que tiene:
       <br>
@@ -85,16 +71,15 @@
       <input type="submit" value="Enviar">
     </form>
     <form action="registrardatos.php" method="post">
-      Seleccione uno o varios colores (Presione Ctrl para seleccionar varios colores)<br>
+     En puesto querría trabajar usted en nuestra empresa.<br>
       <select name="colores[]" size="4" multiple>
-        <option value="1">Rojo</option>
-        <option value="2">Verde</option>
-        <option value="3">Azul</option>
-        <option value="4">Amarillo</option>
-        <option value="5">Blanco</option>
-        <option value="6">Negro</option>
-        <option value="7">Naranja</option>
-        <option value="8">Violeta</option>
+        <option value="1">Director</option>
+        <option value="2">Jefe</option>
+        <option value="3">Manager</option>
+        <option value="4">Encargado</option>
+        <option value="5">Asistente</option>
+        <option value="6">Mantenimiento</option>
+        <option value="7">Limpieza</option>
       </select>
       <br>
       <input type="submit" value="Enviar">
@@ -118,6 +103,19 @@
       <input type="radio" name="estudios" value="3">Secundario<br>
       <input type="radio" name="estudios" value="4">Universitario<br>
       <input type="submit" value="Enviar">
+    </form>
+    <form action="registrardatos.php" method="post">
+      <fieldset>
+        <legend>Formulario de comentarios.</legend>
+        <label for="nombre">Ingrese su nombre:</label>
+        <input type="text" name="nombre" size="30" id="nombre"><br>
+        <label for="mail">Ingrese su mail:</label>
+        <input type="text" name="mail" size="50" id="mail"><br>
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea name="comentarios" rows="5" cols="60" id="comentarios"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+      </fieldset>
     </form>
     Contrato:<br>
     <textarea name="comentarios" rows="5" cols="60" readonly>
